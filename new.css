@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&family=Mooli&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.side{
+    background-color:gray;
+    font-family: 'Mooli', sans-serif;
+    height: 300vh;
+    transition: transform 0.3s ease-in;
+ 
+}
+.side nav{
+        padding: 25px;
+}
+.side nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 35px 0;
+    font-weight: bold;
+ 
+}
+.side nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.main{
+    font-family: 'Lobster', cursive;
+font-family: 'Mooli', sans-serif;
+font-size: 12px;
+
+}
+
+.contaer{
+    display: flex;
+}
+.infocontaer{
+    height: 20vw;
+    width: 81vw;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.harshitinfo{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro{
+   font-size: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name{
+    font-size: 35px;
+
+    font-weight: bold;
+}
+.about{
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Italianno', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mooli', sans-serif;
+}
+.aboutmore {
+    font-size: 12px;
+    margin: 8px;
+}
+.btn{
+    margin: 0 14px;
+    padding: 8px;
+    border-radius: 11px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgb(241, 238, 235);
+    color: dodgerblue;
+}
+.harshitimg img{
+   height: 20vw;
+    justify-content: right;
+}
+.contactform{
+    padding: 0 40px;
+    padding-top: 144px;
+    font-family: 'Mooli', sans-serif;
+}
+.contactform h1{
+    padding: 12px 0;
+    font-family: 'Italianno', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mooli', sans-serif;
+text-align: center;
+}
+.contactform form div{
+    padding: 12px 0;
+}
+.contactform form div input{
+    border-radius: 6px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: darkgreen;
+    margin: 0 5px;
+}
+.introduction h1{
+    font-size: 30px;
+    color: rgb(41, 59, 43);
+margin: 20px;
+}
+.introduction h2{
+    margin: 20px;
+}
+.skill{
+    width: 263px;
+    height: 16px;
+  background-color: rgb(228, 52, 21);
+  border: 2px solid black;
+}
+.skillcontainer{
+    padding: 12px;
+
+}
+.introduction p{
+    font-size: 20px;
+    margin: 0 30px;
+    padding: 10px;
+}
+.introduction details{
+    font-size: 20px;
+    padding: 20px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.hundered{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: backwards;
+    width: 263px;
+    background-color:red;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+.fifty{
+    width: 180px;
+    background-color: greenyellow;
+}
+.eighty{
+    width: 200x;
+    background-color: green;
+}
+.links{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: cursive;
+    align-items: center;
+    color:blue;
+}
+.lavel{
+    font-size: medium;
+}
+.ham{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left:10px;
+}
+.cross{
+    margin-left: 105px
+}
